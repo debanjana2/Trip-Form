@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /*background-color: rgb(245, 185, 205);*/
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+    font-size: 40px;
+}
+p{
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+}
+input, textarea{
+    border: 2px solid darkblue;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 12px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: wheat;
+    background: rgb(209, 19, 130);
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.submitMsg{
+    color: rgb(20, 2, 12);
+}
